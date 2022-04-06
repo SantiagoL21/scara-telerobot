@@ -99,6 +99,7 @@ def home():#listo
     global theta_c
     global leido
     global aux
+    print('Homming 2')
     vel_max_codo(100)
     time.sleep(0.015)
     acc_max_codo(5000)

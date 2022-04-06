@@ -2,11 +2,11 @@ const mysql = require('mysql2')
 // DB connection
 const pool = mysql.createPool({
     host: 'localhost',
-    user: 'root',
+    user: 'Santi',
     database: 'telerobot',
     //user: 'admin_tesis',
     //database: 'admin_telerobot',
-    password: 'Tesis2022'
+    password: '1234'
 });
 // DB error check and verification 
 pool.getConnection((err, connection) => {
